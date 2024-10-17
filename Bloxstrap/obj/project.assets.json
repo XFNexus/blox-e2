@@ -1,0 +1,247 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "C:\\Users\\ramir\\Desktop\\Bloxstrap Custom 2\\wpfui\\src\\Wpf.Ui\\Wpf.Ui.csproj",
+      "CommunityToolkit.Mvvm >= 8.2.2",
+      "DiscordRichPresence >= 1.2.1.24",
+      "Markdig >= 0.37.0",
+      "Microsoft.Windows.CsWin32 >= 0.3.106",
+      "SharpZipLib >= 1.4.2",
+      "System.Resources.ResourceManager >= 4.3.0",
+      "securifybv.ShellLink >= 0.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ramir\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "2.8.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ramir\\Desktop\\Bloxstrap Custom 2\\Bloxstrap\\Bloxstrap.csproj",
+      "projectName": "Bloxstrap",
+      "projectPath": "C:\\Users\\ramir\\Desktop\\Bloxstrap Custom 2\\Bloxstrap\\Bloxstrap.csproj",
+      "packagesPath": "C:\\Users\\ramir\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ramir\\Desktop\\Bloxstrap Custom 2\\Bloxstrap\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ramir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\ramir\\Desktop\\Bloxstrap Custom 2\\wpfui\\src\\Wpf.Ui\\Wpf.Ui.csproj": {
+              "projectPath": "C:\\Users\\ramir\\Desktop\\Bloxstrap Custom 2\\wpfui\\src\\Wpf.Ui\\Wpf.Ui.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.2, )"
+          },
+          "DiscordRichPresence": {
+            "target": "Package",
+            "version": "[1.2.1.24, )"
+          },
+          "Markdig": {
+            "target": "Package",
+            "version": "[0.37.0, )"
+          },
+          "Microsoft.Windows.CsWin32": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[0.3.106, )"
+          },
+          "SharpZipLib": {
+            "target": "Package",
+            "version": "[1.4.2, )"
+          },
+          "System.Resources.ResourceManager": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          },
+          "securifybv.ShellLink": {
+            "target": "Package",
+            "version": "[0.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.32, 6.0.32]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.32, 6.0.32]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.32, 6.0.32]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.32, 6.0.32]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package System.Resources.ResourceManager. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "System.Resources.ResourceManager",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Windows.CsWin32. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Windows.CsWin32",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package SharpZipLib. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "SharpZipLib",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package DiscordRichPresence. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "DiscordRichPresence",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package securifybv.ShellLink. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "securifybv.ShellLink",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Markdig. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Markdig",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package CommunityToolkit.Mvvm. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "CommunityToolkit.Mvvm",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\ramir\\Desktop\\Bloxstrap Custom 2\\wpfui\\src\\Wpf.Ui\\Wpf.Ui.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\ramir\\Desktop\\Bloxstrap Custom 2\\wpfui\\src\\Wpf.Ui\\Wpf.Ui.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.WindowsDesktop.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Ref",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.AspNetCore.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Ref",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App.Host.win-x64. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
